@@ -15,3 +15,56 @@ a, a:hover{
     width: 1140px;
     margin: 0 auto;
 }
+
+/* menu part start */
+
+#menu{
+    background: url(../images/bannar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu .menus ul{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+#menu .menus ul li{
+    padding: 60px 0;
+}
+#menu .menus ul li a{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu .menus ul li .underline{
+    position: relative;
+}
+
+#menu .menus ul li .underline::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    top: 110%;
+    left: 0%;
+}
+
+/* Bannar part start */
+
+
+#bannar{
+    padding-top: 100px;
+}
+
+#bannar .logo{
+    text-align: center;
+}
+
+#bannar .logo img{
+    width: 119px;
+    height: 119px;
+}
