@@ -68,3 +68,49 @@ a, a:hover{
     width: 119px;
     height: 119px;
 }
+
+#bannar p.silver{
+    font-family: brushwell ;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#bannar p.silver::after{
+    content: '';
+    position: absolute;
+    width: 351px;
+    height: 1px;
+    background: #ffffff;
+    top: 90%;
+    left: 35%;
+}
+
+#bannar p.love{
+    font-family: RedVelvet;
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#bannar .lorem{
+    font-family: LouisGeorgeCafe;
+    font-size: 19px;
+    color: #ffffff;
+    width: 813px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
