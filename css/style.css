@@ -224,6 +224,36 @@ a, a:hover{
 }
 
 
+/* Image_part start */
+#image_part{
+    padding: 20px 0;
+}
+#image_part .All_image .first_line_image img{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
