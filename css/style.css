@@ -226,18 +226,34 @@ a, a:hover{
 
 /* Image_part start */
 #image_part{
-    padding: 20px 0;
+    padding: 40px 0;
 }
 #image_part .All_image .first_line_image img{
     display: block;
     padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#image_part .All_image .second_line_image img{
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#image_part .All_image .thirth_line_image img{
+    display: block;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+#image_part .All_image img{
+    max-width: 100%;
+    height: auto;
 }
 
 
-
-
-
-
+#image_part .All_image{
+    display: flex;
+}
 
 
 
