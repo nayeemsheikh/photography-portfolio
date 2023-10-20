@@ -256,10 +256,46 @@ a, a:hover{
 }
 
 
+/* video part start */
+
+#video_part{
+    background-image: url(../images/Videopart_background_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+#video_part h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+    position: relative;
+}
 
 
+#video_part h1:after {
+    content: '';
+    position: absolute;
+    width: 146px;
+    height: 2px;
+    background: #ffffff;
+    left: 44%;
+    top: 60%;
+    margin-top: 10px;
+}
 
 
+#video_part p {
+    text-align: center;
+    width: 517px;
+    margin: 0 auto;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 24px;
+}
 
 
 
