@@ -262,8 +262,8 @@ a, a:hover{
     background-image: url(../images/Videopart_background_image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     padding: 50px 0;
+    font-weight: 800;
 }
 
 #video_part h1{
@@ -298,8 +298,28 @@ a, a:hover{
 }
 
 
+/* video two part start */
 
+#video_two_part{
+    padding-top: 40px;
+}
+#video_two_part .video_image{
+    position: relative;
+    text-align: center;
+}
 
+#video_two_part .video_image .play_button{
+
+}
+
+#video_two_part .video_image .play_button a{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%)
+}
 
 
 
